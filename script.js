@@ -14,9 +14,9 @@ notNum.textContent = unreadNots.length;
 
 notNum.addEventListener("click", function () {
     unreadNots.forEach((not) => {
-        not.style.backgroundColor = "#dee2e6";
+        not.style.filter = "brightness(0.9)";
         setTimeout(() => {
-            not.style.backgroundColor = "#f7fafd";
+            not.style.filter = "brightness(1)";
         }, 100);
     });
 });
