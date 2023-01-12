@@ -4,34 +4,32 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ## Table of contents
 
-- [Links](#links)
-- [Built with](#built-with)
-- [Author](#author)
-- [Screenshot](#screenshot)
+-   [Links](#links)
+-   [Built with](#built-with)
+-   [Author](#author)
+-   [Screenshot](#screenshot)
 
 ## Links
 
-- [Solution URL](https://github.com/ionStici/notifications-page-fem)
-- [Live Site URL](https://ionstici.github.io/notifications-page-fem)
+-   [Solution URL](https://github.com/ionStici/notifications-page-fem)
+-   [Live Site URL](https://ionstici.github.io/notifications-page-fem)
 
 ## Built with
 
-<!-- - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox and CSS Grid
-- Sass (Scss)
-- Mobile-first workflow
-- JavaScript and Form validation -->
+-   Semantic HTML5 markup
+-   CSS custom properties
+-   Flexbox and CSS Grid
+-   Mobile-first workflow
 
 ## Author
 
-- [GitHub](https://github.com/ionStici)
-- [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
-- [Twitter](https://twitter.com/ionStici_)
+-   [GitHub](https://github.com/ionStici)
+-   [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
+-   [Twitter](https://twitter.com/ionStici_)
 
 ## Screenshot
 
-<!-- ![](./assets/screenshot.png) -->
+![](./assets/screenshot.png)
 
 <!-- ### Primary
 

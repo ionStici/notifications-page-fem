@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
     <title>Notifications page</title>
@@ -14,33 +14,109 @@
 </head>
 <body>
 
-  <!-- Notifications 3
+    <main class="main">
 
-  Mark all as read
+        <header class="header">
+            <h3 class="h3">
+                <span class="h3--text">Notifications</span>
+                <span class="h3--num">3</span>
+            </h3>
 
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+            <button class="btn-mark-all">Mark all as read</button>
+        </header>
 
-  Angela Gray followed you
-  5m ago
+        <div class="not unread-not">
+            <img class="not__profile-picture" src="./assets/images/avatar-mark-webber.webp" alt="Author Picture">
 
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
+            <div class="not__content-box">
+                <p class="not__title">
+                    <a href="." class="not__author-name">Mark Webber</a>
+                    <a class="not__action">reacted to your recent post</a>
+                    <a href="." class="not__target">My first tournament today!</a>
+                </p>
+                <p class="not__time">1m ago</p>
+            </div>
+        </div>
 
-  Rizky Hasanuddin sent you a private message
-  5 days ago
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
+        <div class="not unread-not">
+            <img class="not__profile-picture" src="./assets/images/avatar-angela-gray.webp" alt="Author Picture">
 
-  Kimberly Smith commented on your picture
-  1 week ago
+            <div class="not__content-box">
+                <p class="not__title">
+                    <a href="." class="not__author-name">Angela Gray</a>
+                    <a class="not__action">followed you</a>
+                </p>
+                <p class="not__time">5m ago</p>
+            </div>
+        </div>
 
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
+        <div class="not unread-not">
+            <img class="not__profile-picture" src="./assets/images/avatar-jacob-thompson.webp" alt="Author Picture">
 
-  Anna Kim left the group Chess Club
-  2 weeks ago -->
-  
+            <div class="not__content-box">
+                <p class="not__title">
+                    <a href="." class="not__author-name">Jacob Thompson</a>
+                    <a class="not__action">has joined your group</a>
+                    <a href="." class="not__target not__target--your-group">Chess Club</a>
+                </p>
+                <p class="not__time">1 day ago</p>
+            </div>
+        </div>
+
+        <div class="not">
+            <img class="not__profile-picture" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Author Picture">
+
+            <div class="not__content-box">
+                <p class="not__title">
+                    <a href="." class="not__author-name">Rizky Hasanuddin</a>
+                    <a class="not__action">sent you a private message</a>
+                </p>
+                <p class="not__time">5 days ago</p>
+            </div>
+
+            <p class="not__sent-message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+        </div>
+
+        <div class="not">
+            <img class="not__profile-picture" src="./assets/images/avatar-kimberly-smith.webp" alt="Author Picture">
+
+            <div class="not__content-box">
+                <p class="not__title not-contains-img">
+                    <a href="." class="not__author-name">Kimberly Smith</a>
+                    <a class="not__action">commented on your picture</a>
+                </p>
+                <img class="not__commented-img" src="./assets/images/image-chess.webp" alt="">
+                <p class="not__time">1 week ago</p>
+            </div>
+        </div>
+
+        <div class="not">
+            <img class="not__profile-picture" src="./assets/images/avatar-nathan-peterson.webp" alt="Author Picture">
+
+            <div class="not__content-box">
+                <p class="not__title">
+                    <a href="." class="not__author-name">Nathan Peterson</a>
+                    <a class="not__action">reacted to your recent post</a>
+                    <a href="." class="not__target">5 end-game strategies to increase your win rate</a>
+                </p>
+                <p class="not__time">2 weeks ago</p>
+            </div>
+        </div>
+
+        <div class="not">
+            <img class="not__profile-picture" src="./assets/images/avatar-anna-kim.webp" alt="Author Picture">
+
+            <div class="not__content-box">
+                <p class="not__title">
+                    <a href="." class="not__author-name">Anna Kim</a>
+                    <a class="not__action">left the group</a>
+                    <a href="." class="not__target not__target--your-group">Chess Club</a>
+                </p>
+                <p class="not__time">2 weeks ago</p>
+            </div>
+        </div>
+
+    </main>
 
 </body>
 </html>
