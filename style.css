@@ -56,6 +56,12 @@ body {
     padding: 2px 11px 3px 11px;
     border-radius: 6px;
     background-color: hsl(219, 85%, 26%);
+
+    cursor: pointer;
+}
+
+.h3--num:hover {
+    opacity: 0.9;
 }
 
 .btn-mark-all {
@@ -67,6 +73,10 @@ body {
     cursor: pointer;
     border: none;
     background-color: transparent;
+}
+
+.btn-mark-all:hover {
+    color: #0a327b;
 }
 
 /* NOTIFICATION */
@@ -211,6 +221,93 @@ body {
     padding-right: 60px;
 }
 
-/* 752px */
 @media only screen and (min-width: 752px) {
+    .main {
+        max-width: 730px;
+        margin: 63px auto 89px auto;
+        padding: 33px 30px 10px 30px;
+        border-radius: 15px;
+        box-shadow: 0 20px 60px rgba(73, 97, 168, 0.05);
+        height: auto;
+    }
+
+    .header {
+        margin-bottom: 31px;
+    }
+
+    .h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .h3--num {
+        margin-left: 11px;
+        padding: 5px 11px 3px 11px;
+    }
+
+    .btn-mark-all {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .not {
+        padding: 18px 32px 17px 20px;
+        grid-template-columns: 45px 1fr;
+        column-gap: 19px;
+    }
+
+    .not:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    .not__profile-picture {
+        height: 45px;
+    }
+
+    .not__content-box {
+        position: relative;
+        grid-column: 2 / 3;
+    }
+
+    .not__time {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .not__author-name,
+    .not__author-name:link,
+    .not__author-name:visited {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .not__action,
+    .not__action:link,
+    .not__action:visited {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .not__target,
+    .not__target:link,
+    .not__target:visited {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .not__sent-message {
+        margin-top: 13px;
+        padding: 17px 20px 20px 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .not__commented-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .not-contains-img {
+        padding-right: 70px;
+    }
 }
